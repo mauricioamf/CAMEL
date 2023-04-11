@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 ###############################################################################
 ## Data loading and transformation
 
-data = pd.read_csv("trainingdata_ratio_Gecko_allconcatenated_Yeast_noenv.csv", sep='\t')
+data = pd.read_csv("trainingdata_Yeast_kcat_noenv.csv", sep='\t')
 
 col = []
 for column in data.columns:
@@ -124,7 +124,7 @@ plot_data['Predicted abundance'] = predict_valid.ravel()
 
 sns.regplot(x='Known abundance', y='Predicted abundance', data=plot_data)
 
-plt.savefig('2022-11-20_exported_pipeline_Gecko_allconcatenated_Yeast_noenv_valid_correlation.jpg', format='jpg', dpi=120)
+plt.savefig('TPOT_Yeast_kcat_noenv_valid_correlation.jpg', format='jpg', dpi=120)
 
 
 residuals = y_rescaled - predict_valid
@@ -135,7 +135,7 @@ plot_data['Predicted abundance'] = predict_valid.ravel()
 
 sns.jointplot(y='Residuals', x='Predicted abundance', data=plot_data, kind="resid")
 
-plt.savefig('2022-11-20_exported_pipeline_Gecko_allconcatenated_Yeast_noenv_valid_residuals.jpg', format='jpg', dpi=120)
+plt.savefig('TPOT_Yeast_kcat_noenv_valid_residuals.jpg', format='jpg', dpi=120)
 
 ###############################################################################
 ## Predicted values
@@ -157,6 +157,6 @@ for i, (eval_row, pred_row) in enumerate(zip(y_rescaled, predict_valid)):
 
 ###############################################################################
 ## Model saving
-filename = '2022-11-20_exported_pipeline_Gecko_allconcatenated_Yeast_noenv_exported_pipeline.sav'
+filename = 'TPOT_Yeast_kcat_noenv_exported_pipeline.sav'
 dump(model, filename)
 
