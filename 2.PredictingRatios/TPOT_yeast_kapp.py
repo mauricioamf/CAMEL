@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 ###############################################################################
 ## Data loading and transformation
 
-data = pd.read_csv("trainingdata_ratio_Gecko_allconcatenated_Yeast_kapp.csv", sep='\t')
+data = pd.read_csv("trainingdata_Yeast_kapp.csv", sep='\t')
 
 col = []
 for column in data.columns:
