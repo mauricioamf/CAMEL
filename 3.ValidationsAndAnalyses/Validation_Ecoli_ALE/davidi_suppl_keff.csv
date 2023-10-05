@@ -1,0 +1,237 @@
+reaction (model name),bnumber,gene name,kmax per polypeptide chain [s-1],subsystem (according to model)
+PSP_L,b4388,serB,2693.14210994718,Glycine and Serine Metabolism
+SDPDS,b2472,dapE,102.228594566651,Threonine and Lysine Metabolism
+DHAD1,b3771,ilvD,38.4179472067832,"Valine, Leucine, and Isoleucine Metabolism"
+ACOAD5f_reverse,b0221,fadE,,
+ACOAD2f_reverse,b0221,fadE,,
+ACOAD4f_reverse,b0221,fadE,,
+ACOAD3f_reverse,b0221,fadE,,
+ACOAD1f_reverse,b0221,fadE,,
+FADRx,b3844,fre,0.088143196574064,Cofactor and Prosthetic Group Biosynthesis
+PFK,b3916,pfkA,,Glycolysis/Gluconeogenesis
+ACOAD6f_reverse,b0221,fadE,,
+ACGS,b2818,argA,25.9221785816804,Arginine and Proline Metabolism
+GLUDy_reverse,b1761,gdhA,,
+PGL,b0767,pgl,588.747629875143,Pentose Phosphate Pathway
+AGPAT161,b3018,plsC,23.3545991411104,Glycerophospholipid Metabolism
+G6PDH2r,b1852,zwf,163.678729835396,Pentose Phosphate Pathway
+AIRC2,b0522,purK,48.1710466113289,Purine and Pyrimidine Biosynthesis
+DHAD2,b3771,ilvD,12.7664883998379,"Valine, Leucine, and Isoleucine Metabolism"
+AGPAT160,b3018,plsC,30.026704671307,Glycerophospholipid Metabolism
+ACOAD7f_reverse,b0221,fadE,,
+GARFT,b2500,purN,57.1662035523635,Purine and Pyrimidine Biosynthesis
+DAPE,b3809,dapF,55.5416508536572,Threonine and Lysine Metabolism
+HSK,b0003,thrB,151.868642334337,Threonine and Lysine Metabolism
+DHQS,b3389,aroB,38.124802408187,"Tyrosine, Tryptophan, and Phenylalanine Metabolism"
+DASYN161,b0175,cdsA,86.7116673035816,Glycerophospholipid Metabolism
+TPI,b3919,tpiA,193.906572544439,Glycolysis/Gluconeogenesis
+PGI,b4025,pgi,129.94468556604,Glycolysis/Gluconeogenesis
+PAPPT3,b0087,mraY,15.5923328735092,Cell Envelope Biosynthesis
+MTHFC,b0529,folD,40.9179055518934,Folate Metabolism
+MTHFD,b0529,folD,40.9179055518934,Folate Metabolism
+DASYN160,b0175,cdsA,111.484064976126,Glycerophospholipid Metabolism
+GLUPRT,b2312,purF,18.6528441729059,Purine and Pyrimidine Biosynthesis
+DHQTi,b1693,aroD,40.3147109944244,"Tyrosine, Tryptophan, and Phenylalanine Metabolism"
+MOAT2,b3633,waaA,10.6665247904762,Lipopolysaccharide Biosynthesis / Recycling
+MOAT,b3633,waaA,10.6665247904762,Lipopolysaccharide Biosynthesis / Recycling
+PFK_3,b3916,pfkA,108.169244504748,Pentose Phosphate Pathway
+CTECOAI7_reverse,b3846,fadB,,
+LPADSS,b0182,lpxB,8.70011721670631,Lipopolysaccharide Biosynthesis / Recycling
+PPC,b3956,ppc,,Anaplerotic Reactions
+UAPGR,b3972,murB,5.83893153623685,Cell Envelope Biosynthesis
+FACOAE161,b0452,tesB,,Cell Envelope Biosynthesis
+GK1,b3648,gmk,37.5362994835745,Nucleotide Salvage Pathway
+PGK_reverse,b2926,pgk,,
+CHORS,b2329,aroC,32.6496299070737,"Tyrosine, Tryptophan, and Phenylalanine Metabolism"
+DAPDC,b2838,lysA,55.7009974553855,Threonine and Lysine Metabolism
+SERAT,b3607,cysE,21.2156661255808,Cysteine Metabolism
+PE160abcpp,b0914,msbA,3.15550862721224,"Transport, Inner Membrane"
+FACOAE160,b0452,tesB,,Cell Envelope Biosynthesis
+U23GAAT,b0179,lpxD,1.39171972493785,Lipopolysaccharide Biosynthesis / Recycling
+G3PD2_reverse,b3608,gpsA,,
+P5CR,b0386,proC,23.6602708992869,Arginine and Proline Metabolism
+ADK1,b0474,adk,,Nucleotide Salvage Pathway
+UAMAGS,b0088,murD,4.52361362624479,Cell Envelope Biosynthesis
+CS,b0720,gltA,31.4913433767798,Citric Acid Cycle
+GAPD,b1779,gapA,35.7649614246495,Glycolysis/Gluconeogenesis
+ACODA,b3957,argE,10.9791125730085,Arginine and Proline Metabolism
+GLU5K,b0242,proB,12.2219245741267,Arginine and Proline Metabolism
+AGPR_reverse,b3958,argC,,
+OMPDC,b1281,pyrF,58.9910628293098,Purine and Pyrimidine Biosynthesis
+CYTK1,b0910,cmk,14.9247968052684,Nucleotide Salvage Pathway
+ENO,b2779,eno,58.1848761721395,Glycolysis/Gluconeogenesis
+BPNT,b4214,cysQ,84.8451257345241,Cysteine Metabolism
+ADSK,b2750,cysC,85.0720534858788,Cysteine Metabolism
+PPND,b2600,tyrA,19.9767127958197,"Tyrosine, Tryptophan, and Phenylalanine Metabolism"
+FACOAE120,b0452,tesB,,Cell Envelope Biosynthesis
+GND,b2029,gnd,66.7611983218546,Pentose Phosphate Pathway
+PRATPP,b2026,hisI,9.31903097116646,Histidine Metabolism
+PRAMPC,b2026,hisI,9.31903097116646,Histidine Metabolism
+ASPTA_reverse,b0928,aspC,,
+GLUR_reverse,b3967,murI,,
+UHGADA,b0096,lpxC,12.9889528063794,Lipopolysaccharide Biosynthesis / Recycling
+PSCVT,b0908,aroA,8.65994864208381,"Tyrosine, Tryptophan, and Phenylalanine Metabolism"
+DHORD2,b0945,pyrD,38.5306805462644,Purine and Pyrimidine Biosynthesis
+PRAGSr,b4005,purD,13.6898473497048,Purine and Pyrimidine Biosynthesis
+PGCD,b2913,serA,37.464286427222,Glycine and Serine Metabolism
+ASNS2,b3744,asnA,8.97253368157073,Alanine and Aspartate Metabolism
+DTMPK,b1098,tmk,7.94475986159112,Nucleotide Salvage Pathway
+PSSA161,b2585,pssA,2.87933206489596,Glycerophospholipid Metabolism
+PE161abcpp,b0914,msbA,2.45430649499352,"Transport, Inner Membrane"
+UAGPT3,b0090,murG,6.15029575143663,Cell Envelope Biosynthesis
+UGMDDS,b0086,murF,8.68654987612314,Cell Envelope Biosynthesis
+UAGDP,b3730,glmU,7.49112873643094,Cell Envelope Biosynthesis
+G1PACT,b3730,glmU,7.49112873643094,Cell Envelope Biosynthesis
+K2L4Aabcpp,b0914,msbA,,"Transport, Inner Membrane"
+PSSA160,b2585,pssA,3.7019744183286,Glycerophospholipid Metabolism
+ADSL2r,b1131,purB,10.2418654294629,Purine and Pyrimidine Biosynthesis
+PRFGS,b2557,purL,10.2302193425557,Purine and Pyrimidine Biosynthesis
+UAMAS,b0091,murC,2.78679718336528,Cell Envelope Biosynthesis
+G5SD,b0243,proA,9.68192474118907,Arginine and Proline Metabolism
+DHDPRy,b0031,dapB,8.85922216462127,Threonine and Lysine Metabolism
+AIRC3_reverse,b0523,purE,,
+PPNDH,b2599,pheA,17.8653110991477,"Tyrosine, Tryptophan, and Phenylalanine Metabolism"
+CTPS2,b2780,pyrG,4.25878177372141,Purine and Pyrimidine Biosynthesis
+ARGSL,b3960,argH,8.56786575709911,Arginine and Proline Metabolism
+ICDHyr,b1136,icd,10.0848967320766,Citric Acid Cycle
+DHDPS,b2478,dapA,7.12621732261443,Threonine and Lysine Metabolism
+IPPS,b0074,leuA,8.60686706920375,"Valine, Leucine, and Isoleucine Metabolism"
+AICART,b4006,purH,11.8847026786785,Purine and Pyrimidine Biosynthesis
+IMPC_reverse,b4006,purH,,
+KDOPP,b3198,kdsC,18.7248986850497,Lipopolysaccharide Biosynthesis / Recycling
+PRMICI,b2024,hisA,13.4800577512757,Histidine Metabolism
+SHSL1,b3939,metB,7.32262960834817,Methionine Metabolism
+PRAIS,b2499,purM,14.5830301099742,Purine and Pyrimidine Biosynthesis
+ADSL1r,b1131,purB,4.03656199673189,Purine and Pyrimidine Biosynthesis
+HCO3E,b0126,can,,Unassigned
+VALTA_reverse,b3770,ilvE,,
+ACGK,b3959,argB,6.48212821323525,Arginine and Proline Metabolism
+PSERT,b0907,serC,37.4134199559911,Glycine and Serine Metabolism
+HSST,b4013,metA,8.53911941823882,Methionine Metabolism
+PRPPS,b1207,prs,17.0332729614286,Histidine Metabolism
+UAAGDS,b0085,murE,4.16006708797276,Cell Envelope Biosynthesis
+PSD161,b4160,psd,4.27562140795245,Glycerophospholipid Metabolism
+SDPTA_reverse,b3359,argD,,
+TMDS,b2827,thyA,4.6398850905372,Nucleotide Salvage Pathway
+MDH,b3236,mdh,,Citric Acid Cycle
+DHORTS_reverse,b1062,pyrC,,
+PSD160,b4160,psd,5.49719192063871,Glycerophospholipid Metabolism
+ASAD_reverse,b3433,asd,,
+ILETA_reverse,b3770,ilvE,,
+ANPRT,b1263,trpGD,3.17338205641757,"Tyrosine, Tryptophan, and Phenylalanine Metabolism"
+TRPAS2_reverse,b3708,tnaA,,
+PRAIi,b1262,trpC,3.3782204712377,"Tyrosine, Tryptophan, and Phenylalanine Metabolism"
+IGPS,b1262,trpC,3.3782204712377,"Tyrosine, Tryptophan, and Phenylalanine Metabolism"
+GMPS2,b2507,guaA,2.39595062156227,Purine and Pyrimidine Biosynthesis
+IPMD,b0073,leuB,9.64357492966325,"Valine, Leucine, and Isoleucine Metabolism"
+KDOCT2,b0918,kdsB,1.44684069376945,Lipopolysaccharide Biosynthesis / Recycling
+DALAt2pp,b4208,cycA,3.3421650930993,"Transport, Inner Membrane"
+NNATr,b0639,nadD,5.32236823396501,Nucleotide Salvage Pathway
+ASPO6,b2574,nadB,1.24894479387397,Cofactor and Prosthetic Group Biosynthesis
+FBA3,b2925,fbaA,29.2711483800407,Pentose Phosphate Pathway
+THRS,b0004,thrC,28.6460085431503,Threonine and Lysine Metabolism
+PGAMT_reverse,b3176,glmM,,
+HISTP,b2022,hisB,3.33369150802907,Histidine Metabolism
+IGPDH,b2022,hisB,3.33369150802907,Histidine Metabolism
+MEPCT,b2747,ispD,13.9694726459131,Cofactor and Prosthetic Group Biosynthesis
+PRASCSi,b2476,purC,5.51462248092798,Purine and Pyrimidine Biosynthesis
+UAGCVT,b3189,murA,1.39777757634327,Cell Envelope Biosynthesis
+ADSS,b4177,purA,1.84018956986626,Purine and Pyrimidine Biosynthesis
+HSTPT,b2021,hisC,5.95604008098527,Histidine Metabolism
+DXPRIi,b0173,dxr,3.07902433618698,Cofactor and Prosthetic Group Biosynthesis
+GHMT2r,b2551,glyA,4.43933684472924,Glycine and Serine Metabolism
+HISTD,b2020,hisD,3.1795960845827,Histidine Metabolism
+ARGSS,b3172,argG,1.75443596723675,Arginine and Proline Metabolism
+MTHFR2,b3941,metF,3.72011217539015,Folate Metabolism
+THDPS,b0166,dapD,1.67766321744612,Threonine and Lysine Metabolism
+KARA1_reverse,b3774,ilvC,,
+GF6PTA,b3729,glmS,2.02182570267404,Cell Envelope Biosynthesis
+ATPPRT,b2019,hisG,3.7544744728258,Histidine Metabolism
+IMPD,b2508,guaB,1.3996236645257,Purine and Pyrimidine Biosynthesis
+DHNPA2r,b3058,folB,2.91790367174636,Cofactor and Prosthetic Group Biosynthesis
+MPTSS,b0826,moeB,0.380772197458769,Cofactor and Prosthetic Group Biosynthesis
+ADCL,b1096,pabC,1.5530820637521,Cofactor and Prosthetic Group Biosynthesis
+3OAR140,b1093,fabG,4.26551759693818,Cell Envelope Biosynthesis
+CDPMEK,b1208,ispE,4.08681070369138,Cofactor and Prosthetic Group Biosynthesis
+DXPS,b0420,dxs,1.02786494170247,Cofactor and Prosthetic Group Biosynthesis
+NADK,b2615,ppnK,2.64096179762377,Cofactor and Prosthetic Group Biosynthesis
+UPP3S,b3804,hemD,0.912842912996409,Cofactor and Prosthetic Group Biosynthesis
+IPDPS,b0029,ispH,0.888063877555547,Cofactor and Prosthetic Group Biosynthesis
+UPPDC1,b3997,hemE,0.068512599127102,Cofactor and Prosthetic Group Biosynthesis
+KARA2,b3774,ilvC,1.25856158095846,"Valine, Leucine, and Isoleucine Metabolism"
+KDOPS,b1215,kdsA,0.763830547473857,Lipopolysaccharide Biosynthesis / Recycling
+MPTAT,b0009,mog,0.0777862837729376,Cofactor and Prosthetic Group Biosynthesis
+DPCOAK,b0103,coaE,1.33389682554036,Cofactor and Prosthetic Group Biosynthesis
+PTPATi,b3634,coaD,1.28656250077213,Cofactor and Prosthetic Group Biosynthesis
+PMPK,b2103,thiD,0.0389702708872282,Cofactor and Prosthetic Group Biosynthesis
+QULNS,b0750,nadA,0.724280662050357,Cofactor and Prosthetic Group Biosynthesis
+NNDPR,b0109,nadC,0.446502788069612,Cofactor and Prosthetic Group Biosynthesis
+DB4PS,b3041,ribB,0.0913187935166,Cofactor and Prosthetic Group Biosynthesis
+SHCHF,b3368,cysG,0.131828103976208,Cofactor and Prosthetic Group Biosynthesis
+SHCHD2,b3368,cysG,0.131828103976208,Cofactor and Prosthetic Group Biosynthesis
+DHPPDA2,b0414,ribD,0.0763050677802095,Cofactor and Prosthetic Group Biosynthesis
+APRAUR,b0414,ribD,0.0763050677802095,Cofactor and Prosthetic Group Biosynthesis
+METS,b3829,metE,,Methionine Metabolism
+OCTDPS,b3187,ispB,1.28772688539305,Cofactor and Prosthetic Group Biosynthesis
+PNTK,b3974,coaA,0.227027413894348,Cofactor and Prosthetic Group Biosynthesis
+CPPPGO,b2436,hemF,0.696852840385725,Cofactor and Prosthetic Group Biosynthesis
+PPBNGS,b0369,hemB,0.158582702786516,Cofactor and Prosthetic Group Biosynthesis
+CHRPL,b4039,ubiC,0.543619102929351,Cofactor and Prosthetic Group Biosynthesis
+TMPK,b0417,thiL,0.206249430021896,Cofactor and Prosthetic Group Biosynthesis
+DHFS,b2315,folC,0.119841405673709,Cofactor and Prosthetic Group Biosynthesis
+DHPS2,b3177,folP,0.371229170487303,Cofactor and Prosthetic Group Biosynthesis
+HPPK2,b0142,folK,0.313750394210426,Cofactor and Prosthetic Group Biosynthesis
+PPCDC,b3639,coaBC,0.0739545554229652,Cofactor and Prosthetic Group Biosynthesis
+PPNCL2,b3639,coaBC,0.0739545554229652,Cofactor and Prosthetic Group Biosynthesis
+UDCPDPS,b0174,ispU,0.0627051180627932,Cofactor and Prosthetic Group Biosynthesis
+HMBS,b3805,hemC,0.194692175869479,Cofactor and Prosthetic Group Biosynthesis
+GART,b1849,purT,,Purine and Pyrimidine Biosynthesis
+GTPCII2,b1277,ribA,0.0681275961111585,Cofactor and Prosthetic Group Biosynthesis
+DMATT,b0421,ispA,0.585096478864559,Cofactor and Prosthetic Group Biosynthesis
+GRTT,b0421,ispA,0.585096478864559,Cofactor and Prosthetic Group Biosynthesis
+PPPGO3,b3850,hemG,0.184466497531518,Cofactor and Prosthetic Group Biosynthesis
+DMPPS,b0029,ispH,0.148088871232051,Cofactor and Prosthetic Group Biosynthesis
+NI2tpp,b3816,corA,,Inorganic Ion Transport and Metabolism
+G1SAT,b0154,hemL,0.168924501541162,Cofactor and Prosthetic Group Biosynthesis
+MECDPS,b2746,ispF,3.38629696219554,Cofactor and Prosthetic Group Biosynthesis
+RBFK,b0025,ribF,0.0863178439815243,Cofactor and Prosthetic Group Biosynthesis
+FMNAT,b0025,ribF,0.0863178439815243,Cofactor and Prosthetic Group Biosynthesis
+GLUTRS,b2400,gltX,0.120344379706301,Cofactor and Prosthetic Group Biosynthesis
+ASP1DC,b0131,panD,0.0413483968235909,Cofactor and Prosthetic Group Biosynthesis
+OPHHX,b3835,ubiB,0.43501507610676,Cofactor and Prosthetic Group Biosynthesis
+NADS1,b1740,nadE,0.122167138105439,Cofactor and Prosthetic Group Biosynthesis
+PDX5POi,b1638,pdxH,,Cofactor and Prosthetic Group Biosynthesis
+RBFSb,b1662,ribC,0.024041756242956,Cofactor and Prosthetic Group Biosynthesis
+AHCYSNS,b0159,mtnN,0.0523365402118008,Methionine Metabolism
+PANTS,b0133,panC,0.028018758934332,Cofactor and Prosthetic Group Biosynthesis
+GCALDD,b1415,aldA,0.0429060109254141,Folate Metabolism
+MOCOS,b0827,moeA,0.0114040210151757,Cofactor and Prosthetic Group Biosynthesis
+BMOCOS,b0827,moeA,0.010175903941502,Cofactor and Prosthetic Group Biosynthesis
+TMPPP,b3993,thiE,0.0214258833324572,Cofactor and Prosthetic Group Biosynthesis
+PERD,b2320,pdxB,0.0163161764696876,Cofactor and Prosthetic Group Biosynthesis
+5DOAN,b0159,mtnN,0.0299207198851433,Cofactor and Prosthetic Group Biosynthesis
+MOHMT,b0134,panB,0.029624088079717,Cofactor and Prosthetic Group Biosynthesis
+PUNP1_reverse,b4384,deoD,,
+ICYSDS,b2530,iscS,0.0215920627931895,Cofactor and Prosthetic Group Biosynthesis
+RBFSa,b0415,ribE,0.0737204848470377,Cofactor and Prosthetic Group Biosynthesis
+GTPCI,b2153,folE,0.00908518444447114,Cofactor and Prosthetic Group Biosynthesis
+ADNK1,b0474,adk,,Nucleotide Salvage Pathway
+AMPMS2,b3994,thiC,,Cofactor and Prosthetic Group Biosynthesis
+TYRL,b3991,thiG,0.0143369406308285,Cofactor and Prosthetic Group Biosynthesis
+METAT,b2942,metK,0.0542946360539788,Methionine Metabolism
+PMEACPE,b3412,bioH,0.00275638285597639,Cofactor and Prosthetic Group Biosynthesis
+RHCCE,b2687,luxS,0.0156143146075014,Methionine Metabolism
+BTS5,b0775,bioB,0.00073949222409568,Cofactor and Prosthetic Group Biosynthesis
+I4FE4SR,b2529,nifU,0.011359717623223,Cofactor and Prosthetic Group Biosynthesis
+AOXSr2,b0776,bioF,0.00177887784592734,Cofactor and Prosthetic Group Biosynthesis
+AMAOTr,b0774,bioA,0.000662464322880334,Cofactor and Prosthetic Group Biosynthesis
+OHPBAT,b0907,serC,0.00167803910640036,Cofactor and Prosthetic Group Biosynthesis
+DBTS,b0778,bioD1,0.00379938258082894,Cofactor and Prosthetic Group Biosynthesis
+OGMEACPS,b1091,fabH,9.56648967950162E-05,Cofactor and Prosthetic Group Biosynthesis
+OPMEACPR,b1093,fabG,5.26333658547759E-05,Cofactor and Prosthetic Group Biosynthesis
+OGMEACPR,b1093,fabG,5.26333658547759E-05,Cofactor and Prosthetic Group Biosynthesis
+EPMEACPR,b1288,fabI,2.0910360009805E-05,Cofactor and Prosthetic Group Biosynthesis
+EGMEACPR,b1288,fabI,2.0910360009805E-05,Cofactor and Prosthetic Group Biosynthesis
+OPMEACPS,b2323,fabB,2.62435157395262E-05,Cofactor and Prosthetic Group Biosynthesis
+OPMEACPD,b0180,fabZ,9.10354955293828E-05,Cofactor and Prosthetic Group Biosynthesis
+OGMEACPD,b0180,fabZ,9.10354955293828E-05,Cofactor and Prosthetic Group Biosynthesis

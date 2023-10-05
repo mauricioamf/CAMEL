@@ -1,0 +1,719 @@
+
+                              < M A T L A B (R) >
+                    Copyright 1984-2023 The MathWorks, Inc.
+               R2023a Update 1 (9.14.0.2239454) 64-bit (glnxa64)
+                                 March 30, 2023
+
+Warning: X does not support locale en_GB.UTF-8
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+
+      _____   _____   _____   _____     _____     |
+     /  ___| /  _  \ |  _  \ |  _  \   / ___ \    |   COnstraint-Based Reconstruction and Analysis
+     | |     | | | | | |_| | | |_| |  | |___| |   |   The COBRA Toolbox - 2023
+     | |     | | | | |  _  { |  _  /  |  ___  |   |
+     | |___  | |_| | | |_| | | | \ \  | |   | |   |   Documentation:
+     \_____| \_____/ |_____/ |_|  \_\ |_|   |_|   |   http://opencobra.github.io/cobratoolbox
+                                                  | 
+
+ > Checking if git is installed ...  Done (version: 2.41.0).
+ > Checking if the repository is tracked using git ...  Done.
+ > Checking if curl is installed ...  Done.
+ > Checking if remote can be reached ...  Done.
+ > Initializing and updating submodules (this may take a while)... Done.
+ > Adding all the files of The COBRA Toolbox ...  Done.
+ > Define CB map output... set to svg.
+ > TranslateSBML is installed and working properly.
+ > Configuring solver environment variables ...
+   - [----] ILOG_CPLEX_PATH: --> set this path manually after installing the solver ( see https://opencobra.github.io/cobratoolbox/docs/solvers.html )
+   - [-*--] GUROBI_PATH: /home/mferreira/Programas/gurobi911
+   - [----] TOMLAB_PATH: --> set this path manually after installing the solver ( see https://opencobra.github.io/cobratoolbox/docs/solvers.html )
+   - [----] MOSEK_PATH: --> set this path manually after installing the solver ( see https://opencobra.github.io/cobratoolbox/docs/solvers.html )
+   Done.
+ > Checking available solvers and solver interfaces ...     0
+
+     0
+
+Check osense*c - A'*lam - w = 0 (stationarity):
+     0
+     0
+
+
+ > [gurobi] Primal optimality condition in solveCobraLP satisfied.
+ > [gurobi] Dual optimality condition in solveCobraLP satisfied.
+[Warning: Cplex is not on the MATLAB path. Complete the installation as specified
+here:
+https://opencobra.github.io/cobratoolbox/stable/installation.html#ibm-ilog-cplex] 
+[> In changeCobraSolver (line 452)
+In initCobraToolbox (line 460)
+In getKeffModel (line 3)
+In run (line 91)] 
+changeCobraSolver: problem initialising CPLEX object: Undefined function 'Cplex' for input arguments of type 'struct'.
+Could not find installation of ibm_cplex, so it cannot be tested
+Could not find installation of tomlab_cplex, so it cannot be tested
+GLPK Simplex Optimizer, v4.42
+1 row, 2 columns, 1 non-zero
+Preprocessing...
+~     0: obj =   0.000000000e+00  infeas =  0.000e+00
+OPTIMAL SOLUTION FOUND BY LP PREPROCESSOR
+
+ > [glpk] Primal optimality condition in solveCobraLP satisfied.Could not find installation of mosek, so it cannot be tested
+
+ > [matlab] Primal optimality condition in solveCobraLP satisfied.
+   --------------------------------------------------------
+   pdco.m                      Version pdco5 of 15 Jun 2018
+   Primal-dual barrier method to minimize a convex function
+   subject to linear constraints Ax + r = b,  bl <= x <= bu
+                                                           
+   Michael Saunders       SOL and ICME, Stanford University
+   Contributors:     Byunggyoo Kim (SOL), Chris Maes (ICME)
+                     Santiago Akle (ICME), Matt Zahr (ICME)
+                     Aekaansh Verma (ME)                   
+   --------------------------------------------------------
+
+The objective is linear
+The matrix A is an explicit sparse matrix
+
+m        =        1     n        =        2      nnz(A)  =        1
+max |b | =        0     max |x0| =  1.0e+00      xsize   =  1.0e+00
+max |y0| =        1     max |z0| =  1.0e+00      zsize   =  1.0e+00
+
+x0min    =        1     featol   =  1.0e-06      d1max   =  1.0e-04
+z0min    =        1     opttol   =  1.0e-06      d2max   =  5.0e-04
+mu0      =  1.0e-01     steptol  =     0.99     bigcenter=     1000
+
+LSMR/MINRES:
+atol1    =  1.0e-10     atol2    =  1.0e-15      btol    =  0.0e+00
+conlim   =  1.0e+12     itnlim   =       10      show    =        0
+
+Method   =        2     (1 or 11=chol  2 or 12=QR  3 or 13=LSMR  4 or 14=MINRES 21=SQD(LU)  22=SQD(MA57))
+Eliminating dy before dx  
+ 
+
+Bounds:
+  [0,inf]  [-inf,0]  Finite bl  Finite bu  Two bnds   Fixed    Free
+        0         0          0          0         0       2       0
+  [0, bu]  [bl,  0]  excluding fixed variables
+        0         0
+
+Itn   mu stepx stepz  Pinf  Dinf  Cinf   Objective    nf  center       QR
+  0                   -6.6 -99.0  -Inf  1.2500000e-07        1.0
+  1 -1.0 1.000 1.000 -99.0 -99.0  -Inf  0.0000000e+00  1     1.0        1
+  2 -3.0 1.000 1.000 -99.0 -99.0  -Inf  0.0000000e+00  1     1.0
+  3 -5.0 1.000 1.000 -99.0 -99.0  -Inf  0.0000000e+00  1     1.0
+  4 -7.0 1.000 1.000 -99.0 -99.0  -Inf  0.0000000e+00  1     1.0
+   Converged
+
+max |x| =     0.000    max |y| =     0.000    max |z| =     0.000   scaled
+max |x| =     0.000    max |y| =     0.000    max |z| =     0.000 unscaled
+max |x| and max |z| exclude fixed variables
+PDitns  =         4     QRitns =         0    cputime =       0.3
+
+Distribution of vector     x         z
+[      1,     10 )         0         2
+[    0.1,      1 )         0         0
+[   0.01,    0.1 )         0         0
+[  0.001,   0.01 )         0         0
+[ 0.0001,  0.001 )         0         0
+[  1e-05, 0.0001 )         0         0
+[  1e-06,  1e-05 )         0         0
+[  1e-07,  1e-06 )         0         0
+[  1e-08,  1e-07 )         0         0
+[      0,  1e-08 )         2         0 
+Elapsed time is 0.388179 seconds.
+
+ > [pdco] Primal optimality condition in solveCobraLP satisfied.
+ > [pdco] Dual optimality condition in solveCobraLP satisfied.
+Could not find installation of quadMinos, so it cannot be tested
+Could not find installation of dqqMinos, so it cannot be tested
+Could not find installation of cplex_direct, so it cannot be tested
+[Warning: Cplex is not on the MATLAB path. Complete the installation as specified
+here:
+https://opencobra.github.io/cobratoolbox/stable/installation.html#ibm-ilog-cplex] 
+[> In changeCobraSolver (line 452)
+In initCobraToolbox (line 460)
+In getKeffModel (line 3)
+In run (line 91)] 
+changeCobraSolver: problem initialising CPLEX object: Undefined function 'Cplex' for input arguments of type 'struct'.
+Could not find installation of cplexlp, so it cannot be tested
+Could not find installation of tomlab_snopt, so it cannot be tested
+ Done.
+ > Setting default solvers ...Could not find installation of mosek, so it cannot be tested
+ Done.
+ > Saving the MATLAB path ... Done.
+   - The MATLAB path was saved as ~/pathdef.m.
+
+ > Summary of available solvers and solver interfaces
+
+			Support 	   LP 	 MILP 	   QP 	 MIQP 	  NLP 	   EP
+	------------------------------------------------------------------------------
+	gurobi       	active        	    1 	    1 	    1 	    1 	    - 	    -
+	ibm_cplex    	active        	    0 	    0 	    0 	    0 	    - 	    -
+	tomlab_cplex 	active        	    0 	    0 	    0 	    0 	    - 	    -
+	glpk         	active        	    1 	    1 	    - 	    - 	    - 	    -
+	mosek        	active        	    0 	    - 	    0 	    - 	    - 	    0
+	matlab       	active        	    1 	    - 	    - 	    - 	    1 	    -
+	pdco         	active        	    1 	    - 	    1 	    - 	    - 	    1
+	quadMinos    	active        	    0 	    - 	    - 	    - 	    - 	    -
+	dqqMinos     	active        	    0 	    - 	    0 	    - 	    - 	    -
+	cplex_direct 	active        	    0 	    0 	    0 	    - 	    - 	    -
+	cplexlp      	active        	    0 	    - 	    - 	    - 	    - 	    -
+	qpng         	passive       	    - 	    - 	    1 	    - 	    - 	    -
+	tomlab_snopt 	passive       	    - 	    - 	    - 	    - 	    0 	    -
+	lp_solve     	legacy        	    1 	    - 	    - 	    - 	    - 	    -
+	------------------------------------------------------------------------------
+	Total        	-             	    5 	    2 	    3 	    1 	    1 	    1
+
+ + Legend: - = not applicable, 0 = solver not compatible or not installed, 1 = solver installed.
+
+
+ > You can solve LP problems using: 'gurobi' - 'glpk' - 'matlab' - 'pdco' 
+ > You can solve MILP problems using: 'gurobi' - 'glpk' 
+ > You can solve QP problems using: 'gurobi' - 'pdco' 
+ > You can solve MIQP problems using: 'gurobi' 
+ > You can solve NLP problems using: 'matlab' 
+ > You can solve EP problems using: 'pdco' 
+
+> Checking for available updates ... skipped
+removing: /home/mferreira/Mauricio/Biologia/Doutorado/Softwares/cobratoolbox/src/analysis/thermo/componentContribution/new
+removing: /home/mferreira/Mauricio/Biologia/Doutorado/Softwares/cobratoolbox/src/analysis/thermo/groupContribution/new
+removing: /home/mferreira/Mauricio/Biologia/Doutorado/Softwares/cobratoolbox/src/analysis/thermo/inchi/new
+removing: /home/mferreira/Mauricio/Biologia/Doutorado/Softwares/cobratoolbox/src/analysis/thermo/molFiles/new
+removing: /home/mferreira/Mauricio/Biologia/Doutorado/Softwares/cobratoolbox/src/analysis/thermo/protons/new
+removing: /home/mferreira/Mauricio/Biologia/Doutorado/Softwares/cobratoolbox/src/analysis/thermo/trainingModel/new
+
+Building keff-adjusted model for  WT1
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  WT1 keff-adjusted model
+Converting RAVEN structure to COBRA..
+
+Finished for sample WT1
+
+Building keff-adjusted model for  WT2
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  WT2 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample WT2
+
+Building keff-adjusted model for  pgi1
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pgi1 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pgi1
+
+Building keff-adjusted model for  pgi2
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pgi2 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pgi2
+
+Building keff-adjusted model for  pgi3
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pgi3 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pgi3
+
+Building keff-adjusted model for  pgi4
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pgi4 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pgi4
+
+Building keff-adjusted model for  pgi5
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pgi5 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pgi5
+
+Building keff-adjusted model for  pgi6
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pgi6 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pgi6
+
+Building keff-adjusted model for  pgi7
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pgi7 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pgi7
+
+Building keff-adjusted model for  pgi8
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pgi8 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pgi8
+
+Building keff-adjusted model for  pts1
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pts1 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pts1
+
+Building keff-adjusted model for  pts2
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pts2 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pts2
+
+Building keff-adjusted model for  pts3
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pts3 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pts3
+
+Building keff-adjusted model for  pts4
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  pts4 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample pts4
+
+Building keff-adjusted model for  sdh1
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  sdh1 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample sdh1
+
+Building keff-adjusted model for  sdh2
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  sdh2 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample sdh2
+
+Building keff-adjusted model for  sdh3
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  sdh3 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample sdh3
+
+Building keff-adjusted model for  tpi1
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  tpi1 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample tpi1
+
+Building keff-adjusted model for  tpi2
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  tpi2 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample tpi2
+
+Building keff-adjusted model for  tpi3
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  tpi3 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample tpi3
+
+Building keff-adjusted model for  tpi4
+[Warning: Column headers from the file were modified to make them valid MATLAB
+identifiers before creating variable names for the table. The original column
+headers are saved in the VariableDescriptions property.
+Set 'VariableNamingRule' to 'preserve' to use the original column headers as table
+variable names.] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction DALAt2pp] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+[Warning: reaction with missing enzyme or enzyme complex detected comparison
+impossible. skipping reaction I4FE4SR] 
+[> In getKeffModel (line 78)
+In run (line 91)] 
+
+Running simulations for  tpi4 keff-adjusted model
+Converting RAVEN structure to COBRA..
+[Warning: The assignment added rows to the table, but did not assign values to all
+of the table's existing variables. Those variables are extended with rows
+containing default values.] 
+[> In . (line 485)
+In getKeffModel (line 241)
+In run (line 91)] 
+
+Finished for sample tpi4
+Elapsed time is 948.403073 seconds.
